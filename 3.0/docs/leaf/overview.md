@@ -59,9 +59,9 @@ That will expose `title` and `numbers` to our Leaf template, which can then be u
 
 ```leaf
 <h1>#(title)</h1>
-#for(number in numbers){
+#for(number in numbers):
     <p>#(number)</p>
-}
+#endfor
 ```
 
 ## Usage
